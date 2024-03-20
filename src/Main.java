@@ -15,10 +15,8 @@ public class Main {
         box3.height = 10;
         box3.width = 10;
         double volume = myBox.height * myBox.lenght * myBox.width;
-        System.out.println(volume);
         double volume2 = box2.height * box2.lenght * box2.width;
-        System.out.println(volume2);
         double volume3 = box3.height * box3.lenght * box3.width;
-        System.out.println(volume3);
+        System.out.println("Об'єм коробки 1 " + volume + "\nОб'єм коробки 2 " + volume2 + "\nОб'єм коробки 3 " + volume3);
     }
 }
