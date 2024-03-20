@@ -66,5 +66,12 @@ public class Main {
         double volume12 = box12.volume();
         System.out.println(volume1);
         System.out.println(volume12);
+
+        Dog dog = new Dog();
+        dog.name = "Hunter";
+        dog.breed = "Cane corso";
+        dog.speed = 10;
+        dog.run();
+        System.out.println(dog.info());
     }
 }
