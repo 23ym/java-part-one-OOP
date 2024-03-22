@@ -78,6 +78,9 @@ public class Main {
         dog.run();
         System.out.println(dog.info());
 
-        
+        Rect rect = new Rect();
+        rect.setDimens(20, 30);
+        System.out.println(rect.perimeter());
+        System.out.println(rect.area( ));
     }
 }
