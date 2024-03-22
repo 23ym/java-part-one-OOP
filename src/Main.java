@@ -67,11 +67,17 @@ public class Main {
         System.out.println(volume1);
         System.out.println(volume12);
 
+        Box boxnew = new Box();
+        boxnew.setDimens(15, 15, 15); // Ctrl + P
+        System.out.println(boxnew.volume());
+
         Dog dog = new Dog();
         dog.name = "Hunter";
         dog.breed = "Cane corso";
         dog.speed = 10;
         dog.run();
         System.out.println(dog.info());
+
+        
     }
 }
